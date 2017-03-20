@@ -11,6 +11,35 @@ and method *hideProgressIndicator()* to hide indicator.
  
 Important! Button must be circular for using this extension.
 
+Code example
+```
+class ViewController: UIViewController {
+    
+    // Our rounded button
+    @IBOutlet weak var roundedButton: UIButton!
+    
+    // Push 'Start' button
+    @IBAction func pushStart(_ sender: UIButton) {
+        // Show progress indicator for our buttnon 
+        roundedButton.showProgressIndicator(width: 5, color: UIColor.purple, backgroundColor: UIColor.lightGray)
+    }
+    
+    // Push 'Stop' button
+    @IBAction func pushStop(_ sender: UIButton) {
+        // Hide progress indicator
+        roundedButton.hideProgressIndicator()
+    }
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+  
+        // Make rounded button
+        roundedButton.layer.cornerRadius = 0.5 * buttonWithProgressbar.bounds.size.width
+        roundedButton.clipsToBounds = true
+    }
+}
+```
+
 ## Author
 Created by Alexander Smetannikov (alexsmetdev@gmail.com)
 Thanks to Evgeny Safronov
