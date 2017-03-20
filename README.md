@@ -1,13 +1,10 @@
 # ExtButtonProgress
 This simple extension adds progress indicator to UIButton. 
+Important! Button must be circular for using this extension.
 
 ## Description
-Button must be circular for using this extension.
-
-<img width=30% border="2" src="https://cloud.githubusercontent.com/assets/25868364/24117451/56ee5b30-0dbb-11e7-937a-978c981eb292.png" />
-
-
-
+<img width=20%  src="https://cloud.githubusercontent.com/assets/25868364/24120808/e6340a78-0dc6-11e7-8920-b851f94af0f0.png" />
+<img width=20%  src="https://cloud.githubusercontent.com/assets/25868364/24120807/e607dd7c-0dc6-11e7-9bb4-5037dd288c0b.png" />
 
 
 ## Usage
