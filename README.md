@@ -3,7 +3,7 @@ This simple extension adds progress indicator to UIButton.
 
 ## Description
 Button must be circular for using this extension.
-<img width=30% border=2 src="https://cloud.githubusercontent.com/assets/25868364/24117451/56ee5b30-0dbb-11e7-937a-978c981eb292.png" />
+<img width=30% border="2" src="https://cloud.githubusercontent.com/assets/25868364/24117451/56ee5b30-0dbb-11e7-937a-978c981eb292.png" />
 
 ## Usage
 Just add file ExtButtonProgress.swift in your project.
