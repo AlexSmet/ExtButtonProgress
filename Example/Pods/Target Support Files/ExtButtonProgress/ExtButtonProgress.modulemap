@@ -1,0 +1,6 @@
+framework module ExtButtonProgress {
+  umbrella header "ExtButtonProgress-umbrella.h"
+
+  export *
+  module * { export * }
+}

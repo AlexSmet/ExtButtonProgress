@@ -1,0 +1,16 @@
+PODS:
+  - ExtButtonProgress (0.1.0)
+
+DEPENDENCIES:
+  - ExtButtonProgress (from `../`)
+
+EXTERNAL SOURCES:
+  ExtButtonProgress:
+    :path: ../
+
+SPEC CHECKSUMS:
+  ExtButtonProgress: db4e5581eada78f80fd662ca37b936de00a34914
+
+PODFILE CHECKSUM: f314cfb673dfdd3743c5ab356e77233eef77da98
+
+COCOAPODS: 1.1.1
