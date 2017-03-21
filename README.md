@@ -49,7 +49,7 @@ ExtButtonProgress is available through [CocoaPods](http://cocoapods.org). To ins
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod "ExtButtonProgress"
+pod "ExtButtonProgress", :git => 'https://github.com/AlexSmet/ExtButtonProgress.git'
 ```
 
 ## Author
