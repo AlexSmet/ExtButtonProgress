@@ -1,7 +1,7 @@
 # ExtButtonProgress
 This simple extension adds progress indicator to UIButton. 
 
-<img width=20%  src="https://cloud.githubusercontent.com/assets/25868364/24120808/e6340a78-0dc6-11e7-8920-b851f94af0f0.png" /> <img width=20%  src="https://cloud.githubusercontent.com/assets/25868364/24120807/e607dd7c-0dc6-11e7-9bb4-5037dd288c0b.png" />
+<img src="https://cloud.githubusercontent.com/assets/25868364/24146686/da408a9e-0e47-11e7-85dd-274a897c869a.gif" />
 
 
 ## Usage
