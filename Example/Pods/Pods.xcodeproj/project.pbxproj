@@ -1,0 +1,712 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0EA8E2D2CF9C451A98A5239BF34D2B8E /* ExtButtonProgress-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 091E4CF05DB420F39726247B3EA9549E /* ExtButtonProgress-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		127635823C974879EFF73EB9A36BF435 /* Pods-ExtButtonProgress_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 10EE9B58AA493060E4DFB671CB051766 /* Pods-ExtButtonProgress_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		45C1610B6BD980F975EE168679782BC8 /* Pods-ExtButtonProgress_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F78547389B16722515221AE5A3EFC411 /* Pods-ExtButtonProgress_Tests-dummy.m */; };
+		4E3CBB97F646CAFB1C48EDB88D49380A /* ExtButtonProgress-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DA7EEB7EFDDD29F9F36CD211DFE92A6 /* ExtButtonProgress-dummy.m */; };
+		64F8DC05E048F7E1823168EFDCD4E576 /* Pods-ExtButtonProgress_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AD86FFAD1443D836CB10BA2F86A0EC3B /* Pods-ExtButtonProgress_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8F7EF16E55C47536D4287EFEB4D2F658 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		9A157B759EB8BD4D9AB1B48F0762BF6D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		D248393AE00E8387C97702226730DC3D /* Pods-ExtButtonProgress_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D3F07F37D89B073C08F22A79FD22DB8 /* Pods-ExtButtonProgress_Example-dummy.m */; };
+		DB6A25BE1E810523007E8D0E /* ExtButtonProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6A25BD1E810523007E8D0E /* ExtButtonProgress.swift */; };
+		F7C78BEB09690D4CF387542C7915559C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E53EEF427733A16E750CF26231923AC7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0924E16547473FBF206EC3FE91BCBBA8;
+			remoteInfo = ExtButtonProgress;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		091E4CF05DB420F39726247B3EA9549E /* ExtButtonProgress-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ExtButtonProgress-umbrella.h"; sourceTree = "<group>"; };
+		0F6F41EB06CA8BE1369F646858ADC6C5 /* Pods-ExtButtonProgress_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ExtButtonProgress_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		10EE9B58AA493060E4DFB671CB051766 /* Pods-ExtButtonProgress_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ExtButtonProgress_Example-umbrella.h"; sourceTree = "<group>"; };
+		1D93ED4AA7BB1F1885CC82AA706BFF71 /* Pods-ExtButtonProgress_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ExtButtonProgress_Tests-resources.sh"; sourceTree = "<group>"; };
+		2D3F07F37D89B073C08F22A79FD22DB8 /* Pods-ExtButtonProgress_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ExtButtonProgress_Example-dummy.m"; sourceTree = "<group>"; };
+		35EED80268C73418E641A91BE405B1C7 /* Pods-ExtButtonProgress_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ExtButtonProgress_Tests.modulemap"; sourceTree = "<group>"; };
+		436D0F82094842F4350B2D195AE4D0DA /* ExtButtonProgress.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ExtButtonProgress.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		45DC7537997EA85E49CBD7578B112BEF /* ExtButtonProgress.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = ExtButtonProgress.modulemap; sourceTree = "<group>"; };
+		4DA7EEB7EFDDD29F9F36CD211DFE92A6 /* ExtButtonProgress-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ExtButtonProgress-dummy.m"; sourceTree = "<group>"; };
+		54D44C7C75F787B9906A824A93E69732 /* Pods-ExtButtonProgress_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ExtButtonProgress_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		5E9C5E63814BAE85F8B8E1E7DAE4F3A6 /* ExtButtonProgress-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ExtButtonProgress-prefix.pch"; sourceTree = "<group>"; };
+		609ACEF821933328E4A710B1B48A77D7 /* ExtButtonProgress.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ExtButtonProgress.xcconfig; sourceTree = "<group>"; };
+		633BB8E5D8200A540A3699756DADEF0E /* Pods-ExtButtonProgress_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ExtButtonProgress_Example.modulemap"; sourceTree = "<group>"; };
+		63545FC671B30365EA3AE9F44D5B9A8C /* Pods-ExtButtonProgress_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ExtButtonProgress_Example.release.xcconfig"; sourceTree = "<group>"; };
+		6C7A49EA5F7F370909717F5BA13AB5FC /* Pods-ExtButtonProgress_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ExtButtonProgress_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		79D979FC65ADFF8FCF4A92D325BE7459 /* Pods-ExtButtonProgress_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ExtButtonProgress_Example-resources.sh"; sourceTree = "<group>"; };
+		82E3AA32E188DC1DBF80B91CCF28AA8B /* Pods-ExtButtonProgress_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ExtButtonProgress_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		8F4D95719E40165F9DE26A362996227D /* Pods-ExtButtonProgress_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ExtButtonProgress_Example-frameworks.sh"; sourceTree = "<group>"; };
+		90F80BEEFAA921EECB1A64687A57EF9B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		97D717B6D9B6FED37140F7F5E04EBCC4 /* Pods-ExtButtonProgress_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ExtButtonProgress_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9CF8C1C709D032044EFD10711CC36E6B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD86FFAD1443D836CB10BA2F86A0EC3B /* Pods-ExtButtonProgress_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ExtButtonProgress_Tests-umbrella.h"; sourceTree = "<group>"; };
+		B6CB6BB1355A929B2F1A9803861EF747 /* Pods_ExtButtonProgress_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ExtButtonProgress_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CD221104AB7D1B93E2838A5C4CCAC9E8 /* Pods-ExtButtonProgress_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ExtButtonProgress_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		D5FB3855A01A3C3A2849A5DD7934ACE3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB6A25BD1E810523007E8D0E /* ExtButtonProgress.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtButtonProgress.swift; sourceTree = "<group>"; };
+		E1E2AEF735866D66242B8EA22A34B5D0 /* Pods_ExtButtonProgress_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ExtButtonProgress_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB0F2BB422661FC1566EEE213CD1B382 /* Pods-ExtButtonProgress_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ExtButtonProgress_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		EC5FCB93880847002E6883B4EDA00909 /* Pods-ExtButtonProgress_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ExtButtonProgress_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F78547389B16722515221AE5A3EFC411 /* Pods-ExtButtonProgress_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ExtButtonProgress_Tests-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		315CE3E3728570B204E0135264CFED4C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7C78BEB09690D4CF387542C7915559C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		428F8EC4EBA5ED62ACBE2EB51031A121 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F7EF16E55C47536D4287EFEB4D2F658 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B98401DB6297462B17460C6D763589C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A157B759EB8BD4D9AB1B48F0762BF6D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3B4FAF6D9DD1A801C8F9C14906BC25A5 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				563B0BDBD1F8628F398A267A4556BFCE /* ExtButtonProgress */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		4A1679CAAD6FE66ED5F7E7ADCAE488AE /* ExtButtonProgress */ = {
+			isa = PBXGroup;
+			children = (
+				770FA569100A3CE72DFAE7BDFCDDA7BB /* Classes */,
+			);
+			path = ExtButtonProgress;
+			sourceTree = "<group>";
+		};
+		563B0BDBD1F8628F398A267A4556BFCE /* ExtButtonProgress */ = {
+			isa = PBXGroup;
+			children = (
+				4A1679CAAD6FE66ED5F7E7ADCAE488AE /* ExtButtonProgress */,
+				B6F01C94AE9E548B63358B4989E5E7F4 /* Support Files */,
+			);
+			name = ExtButtonProgress;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		770FA569100A3CE72DFAE7BDFCDDA7BB /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				DB6A25BD1E810523007E8D0E /* ExtButtonProgress.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				3B4FAF6D9DD1A801C8F9C14906BC25A5 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				8251C66008E043FBE7FFC99C342AAFDB /* Products */,
+				87E99D3269A789003B05D9802A7C9857 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8251C66008E043FBE7FFC99C342AAFDB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				436D0F82094842F4350B2D195AE4D0DA /* ExtButtonProgress.framework */,
+				E1E2AEF735866D66242B8EA22A34B5D0 /* Pods_ExtButtonProgress_Example.framework */,
+				B6CB6BB1355A929B2F1A9803861EF747 /* Pods_ExtButtonProgress_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		87E99D3269A789003B05D9802A7C9857 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F1574CD63E861894FEE7D85B381F3B82 /* Pods-ExtButtonProgress_Example */,
+				912265442964DDBAF395B5A82D3BB131 /* Pods-ExtButtonProgress_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		912265442964DDBAF395B5A82D3BB131 /* Pods-ExtButtonProgress_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				9CF8C1C709D032044EFD10711CC36E6B /* Info.plist */,
+				35EED80268C73418E641A91BE405B1C7 /* Pods-ExtButtonProgress_Tests.modulemap */,
+				97D717B6D9B6FED37140F7F5E04EBCC4 /* Pods-ExtButtonProgress_Tests-acknowledgements.markdown */,
+				0F6F41EB06CA8BE1369F646858ADC6C5 /* Pods-ExtButtonProgress_Tests-acknowledgements.plist */,
+				F78547389B16722515221AE5A3EFC411 /* Pods-ExtButtonProgress_Tests-dummy.m */,
+				6C7A49EA5F7F370909717F5BA13AB5FC /* Pods-ExtButtonProgress_Tests-frameworks.sh */,
+				1D93ED4AA7BB1F1885CC82AA706BFF71 /* Pods-ExtButtonProgress_Tests-resources.sh */,
+				AD86FFAD1443D836CB10BA2F86A0EC3B /* Pods-ExtButtonProgress_Tests-umbrella.h */,
+				CD221104AB7D1B93E2838A5C4CCAC9E8 /* Pods-ExtButtonProgress_Tests.debug.xcconfig */,
+				82E3AA32E188DC1DBF80B91CCF28AA8B /* Pods-ExtButtonProgress_Tests.release.xcconfig */,
+			);
+			name = "Pods-ExtButtonProgress_Tests";
+			path = "Target Support Files/Pods-ExtButtonProgress_Tests";
+			sourceTree = "<group>";
+		};
+		B6F01C94AE9E548B63358B4989E5E7F4 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				45DC7537997EA85E49CBD7578B112BEF /* ExtButtonProgress.modulemap */,
+				609ACEF821933328E4A710B1B48A77D7 /* ExtButtonProgress.xcconfig */,
+				4DA7EEB7EFDDD29F9F36CD211DFE92A6 /* ExtButtonProgress-dummy.m */,
+				5E9C5E63814BAE85F8B8E1E7DAE4F3A6 /* ExtButtonProgress-prefix.pch */,
+				091E4CF05DB420F39726247B3EA9549E /* ExtButtonProgress-umbrella.h */,
+				D5FB3855A01A3C3A2849A5DD7934ACE3 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ExtButtonProgress";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F1574CD63E861894FEE7D85B381F3B82 /* Pods-ExtButtonProgress_Example */ = {
+			isa = PBXGroup;
+			children = (
+				90F80BEEFAA921EECB1A64687A57EF9B /* Info.plist */,
+				633BB8E5D8200A540A3699756DADEF0E /* Pods-ExtButtonProgress_Example.modulemap */,
+				EC5FCB93880847002E6883B4EDA00909 /* Pods-ExtButtonProgress_Example-acknowledgements.markdown */,
+				54D44C7C75F787B9906A824A93E69732 /* Pods-ExtButtonProgress_Example-acknowledgements.plist */,
+				2D3F07F37D89B073C08F22A79FD22DB8 /* Pods-ExtButtonProgress_Example-dummy.m */,
+				8F4D95719E40165F9DE26A362996227D /* Pods-ExtButtonProgress_Example-frameworks.sh */,
+				79D979FC65ADFF8FCF4A92D325BE7459 /* Pods-ExtButtonProgress_Example-resources.sh */,
+				10EE9B58AA493060E4DFB671CB051766 /* Pods-ExtButtonProgress_Example-umbrella.h */,
+				EB0F2BB422661FC1566EEE213CD1B382 /* Pods-ExtButtonProgress_Example.debug.xcconfig */,
+				63545FC671B30365EA3AE9F44D5B9A8C /* Pods-ExtButtonProgress_Example.release.xcconfig */,
+			);
+			name = "Pods-ExtButtonProgress_Example";
+			path = "Target Support Files/Pods-ExtButtonProgress_Example";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		815A9613E5FDC527AFE5B955A58AF6F9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				127635823C974879EFF73EB9A36BF435 /* Pods-ExtButtonProgress_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC883CCBFE254E530260352D04E5F0BC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EA8E2D2CF9C451A98A5239BF34D2B8E /* ExtButtonProgress-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3FBAEBE9D52B84CD26CEACF04B5ED94 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64F8DC05E048F7E1823168EFDCD4E576 /* Pods-ExtButtonProgress_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0924E16547473FBF206EC3FE91BCBBA8 /* ExtButtonProgress */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0CBF160DB7390ED5294E553D2F826293 /* Build configuration list for PBXNativeTarget "ExtButtonProgress" */;
+			buildPhases = (
+				F52D295759AD249413F47278C9C645B0 /* Sources */,
+				B98401DB6297462B17460C6D763589C9 /* Frameworks */,
+				AC883CCBFE254E530260352D04E5F0BC /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ExtButtonProgress;
+			productName = ExtButtonProgress;
+			productReference = 436D0F82094842F4350B2D195AE4D0DA /* ExtButtonProgress.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CF4EDE6FBC9F8426F12E92DB1BB34768 /* Pods-ExtButtonProgress_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0F56F1EB51598A0FC8EBDFE8FD36A96 /* Build configuration list for PBXNativeTarget "Pods-ExtButtonProgress_Example" */;
+			buildPhases = (
+				69104916B116E62B15C00CE7E15AFD8B /* Sources */,
+				315CE3E3728570B204E0135264CFED4C /* Frameworks */,
+				815A9613E5FDC527AFE5B955A58AF6F9 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7277715B991409BC004594697DF1F9D5 /* PBXTargetDependency */,
+			);
+			name = "Pods-ExtButtonProgress_Example";
+			productName = "Pods-ExtButtonProgress_Example";
+			productReference = E1E2AEF735866D66242B8EA22A34B5D0 /* Pods_ExtButtonProgress_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E99964EC2698CAD167705906551D5154 /* Pods-ExtButtonProgress_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C3195CF590D0B3E1FBDF315DE4C63FC /* Build configuration list for PBXNativeTarget "Pods-ExtButtonProgress_Tests" */;
+			buildPhases = (
+				0C96D7378DB7438B478AA750CCD3BAE1 /* Sources */,
+				428F8EC4EBA5ED62ACBE2EB51031A121 /* Frameworks */,
+				C3FBAEBE9D52B84CD26CEACF04B5ED94 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-ExtButtonProgress_Tests";
+			productName = "Pods-ExtButtonProgress_Tests";
+			productReference = B6CB6BB1355A929B2F1A9803861EF747 /* Pods_ExtButtonProgress_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+				TargetAttributes = {
+					0924E16547473FBF206EC3FE91BCBBA8 = {
+						LastSwiftMigration = 0820;
+					};
+				};
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 8251C66008E043FBE7FFC99C342AAFDB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0924E16547473FBF206EC3FE91BCBBA8 /* ExtButtonProgress */,
+				CF4EDE6FBC9F8426F12E92DB1BB34768 /* Pods-ExtButtonProgress_Example */,
+				E99964EC2698CAD167705906551D5154 /* Pods-ExtButtonProgress_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0C96D7378DB7438B478AA750CCD3BAE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45C1610B6BD980F975EE168679782BC8 /* Pods-ExtButtonProgress_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69104916B116E62B15C00CE7E15AFD8B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D248393AE00E8387C97702226730DC3D /* Pods-ExtButtonProgress_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F52D295759AD249413F47278C9C645B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB6A25BE1E810523007E8D0E /* ExtButtonProgress.swift in Sources */,
+				4E3CBB97F646CAFB1C48EDB88D49380A /* ExtButtonProgress-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7277715B991409BC004594697DF1F9D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ExtButtonProgress;
+			target = 0924E16547473FBF206EC3FE91BCBBA8 /* ExtButtonProgress */;
+			targetProxy = E53EEF427733A16E750CF26231923AC7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		180182EA96459C1F664A726AC78DD1A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD221104AB7D1B93E2838A5C4CCAC9E8 /* Pods-ExtButtonProgress_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ExtButtonProgress_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ExtButtonProgress_Tests/Pods-ExtButtonProgress_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ExtButtonProgress_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		28F9148D2DB9F68C53440335A5FC206C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82E3AA32E188DC1DBF80B91CCF28AA8B /* Pods-ExtButtonProgress_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ExtButtonProgress_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ExtButtonProgress_Tests/Pods-ExtButtonProgress_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ExtButtonProgress_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3783986346C58E3C1CCF178D2506F748 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 609ACEF821933328E4A710B1B48A77D7 /* ExtButtonProgress.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ExtButtonProgress/ExtButtonProgress-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ExtButtonProgress/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ExtButtonProgress/ExtButtonProgress.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = ExtButtonProgress;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5EC1BDF49802DA9652CB710B53602F3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 609ACEF821933328E4A710B1B48A77D7 /* ExtButtonProgress.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ExtButtonProgress/ExtButtonProgress-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ExtButtonProgress/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ExtButtonProgress/ExtButtonProgress.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = ExtButtonProgress;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8DED8AD26D381A6ACFF202E5217EC498 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9E1E4E48AF2EAB23169E611BF694090A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		E1B8FF5722B45DD38B59A6625A003DA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63545FC671B30365EA3AE9F44D5B9A8C /* Pods-ExtButtonProgress_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ExtButtonProgress_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ExtButtonProgress_Example/Pods-ExtButtonProgress_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ExtButtonProgress_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F5E371ECE66376442F0BBE98C711DF35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB0F2BB422661FC1566EEE213CD1B382 /* Pods-ExtButtonProgress_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ExtButtonProgress_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ExtButtonProgress_Example/Pods-ExtButtonProgress_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ExtButtonProgress_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0CBF160DB7390ED5294E553D2F826293 /* Build configuration list for PBXNativeTarget "ExtButtonProgress" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EC1BDF49802DA9652CB710B53602F3D /* Debug */,
+				3783986346C58E3C1CCF178D2506F748 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1C3195CF590D0B3E1FBDF315DE4C63FC /* Build configuration list for PBXNativeTarget "Pods-ExtButtonProgress_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				180182EA96459C1F664A726AC78DD1A3 /* Debug */,
+				28F9148D2DB9F68C53440335A5FC206C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E1E4E48AF2EAB23169E611BF694090A /* Debug */,
+				8DED8AD26D381A6ACFF202E5217EC498 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0F56F1EB51598A0FC8EBDFE8FD36A96 /* Build configuration list for PBXNativeTarget "Pods-ExtButtonProgress_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5E371ECE66376442F0BBE98C711DF35 /* Debug */,
+				E1B8FF5722B45DD38B59A6625A003DA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

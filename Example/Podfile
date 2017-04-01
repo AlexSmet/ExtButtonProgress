@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ExtButtonProgress_Example' do
+  pod 'ExtButtonProgress', :path => '../'
+
+  target 'ExtButtonProgress_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

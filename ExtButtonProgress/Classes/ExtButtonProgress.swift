@@ -15,14 +15,14 @@
 
 import UIKit
 
-extension UIButton {
+public extension UIButton {
     
     class SHProgressIndicator: UIView {
         
         public var width: CGFloat = 5.0
         public var color: UIColor = UIColor.darkGray
         public var shadowColor: UIColor = UIColor.lightGray
-
+        
         private let indicatorLayer = CAShapeLayer()
         private let animationCycleDuration: CFTimeInterval = 3.0
         
@@ -32,7 +32,7 @@ extension UIButton {
             layer.addSublayer(indicatorLayer)
         }
         
-        required init?(coder aDecoder: NSCoder) {
+        public required init?(coder aDecoder: NSCoder) {
             super.init(coder: aDecoder)
             
             layer.addSublayer(indicatorLayer)
@@ -59,13 +59,13 @@ extension UIButton {
             strokeEndAnimation.toValue = 1
             strokeEndAnimation.duration = animationCycleDuration / 2
             indicatorLayer.strokeEnd = 1
-
+            
             let strokeStartAnimation = CABasicAnimation(keyPath: "strokeStart")
             strokeStartAnimation.beginTime = strokeEndAnimation.duration
             strokeStartAnimation.fromValue = 0
             strokeStartAnimation.toValue = 1
             strokeStartAnimation.duration = animationCycleDuration / 2
-
+            
             let group = CAAnimationGroup()
             group.animations = [strokeEndAnimation, strokeStartAnimation]
             group.duration = animationCycleDuration
@@ -83,8 +83,8 @@ extension UIButton {
     
     
     // Show progress indicator. Just set width, indicator and background colors
-    func showProgressIndicator( width: CGFloat, color: UIColor, backgroundColor: UIColor){
-
+    public func showProgressIndicator( width: CGFloat, color: UIColor, backgroundColor: UIColor){
+        
         guard let superview = superview else {
             print("First of all add a button")
             return
@@ -118,7 +118,7 @@ extension UIButton {
     }
     
     // Hide indicator
-    func hideProgressIndicator(){
+    public func hideProgressIndicator(){
         if let indicator = superview?.subviews.first(where: {$0 is SHProgressIndicator}) {
             indicator.removeFromSuperview()
         }
