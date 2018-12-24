@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="3zh-AU-Enh">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="3zh-AU-Enh">
     <device id="retina3_5" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -21,46 +21,58 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nsG-mA-i0Z">
-                                <rect key="frame" x="115" y="140" width="90" height="201"/>
-                                <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="q4g-qj-GAg">
-                                        <rect key="frame" x="28" y="20" width="34" height="30"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <state key="normal" title="Start"/>
-                                        <connections>
-                                            <action selector="start:" destination="3zh-AU-Enh" eventType="touchUpInside" id="STa-vx-fKL"/>
-                                        </connections>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="55K-Fk-Zrk">
-                                        <rect key="frame" x="29" y="58" width="32" height="30"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <state key="normal" title="Stop"/>
-                                        <connections>
-                                            <action selector="stop:" destination="3zh-AU-Enh" eventType="touchUpInside" id="deQ-FY-myc"/>
-                                        </connections>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qq7-Ye-2Ob">
-                                        <rect key="frame" x="20" y="131" width="50" height="50"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <color key="backgroundColor" red="0.56615597009999996" green="0.74259454010000003" blue="0.22507002949999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                    </button>
-                                </subviews>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="q4g-qj-GAg">
+                                <rect key="frame" x="120" y="107" width="80" height="30"/>
+                                <color key="backgroundColor" red="0.23529411764705882" green="0.34509803921568627" blue="0.59607843137254901" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="201" id="Eqx-Zp-nAk"/>
-                                    <constraint firstAttribute="width" constant="90" id="h2y-gS-6Sg"/>
+                                    <constraint firstAttribute="height" constant="30" id="LHp-GK-gVs"/>
+                                    <constraint firstAttribute="width" constant="80" id="fAY-xX-EVH"/>
                                 </constraints>
-                            </view>
+                                <state key="normal" title="Start">
+                                    <color key="titleColor" red="0.87450980389999999" green="0.89019607840000003" blue="0.93333333330000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="start:" destination="3zh-AU-Enh" eventType="touchUpInside" id="STa-vx-fKL"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qq7-Ye-2Ob">
+                                <rect key="frame" x="135" y="218" width="50" height="50"/>
+                                <color key="backgroundColor" red="0.23529411759999999" green="0.34509803919999998" blue="0.59607843140000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="lkR-QT-i9G"/>
+                                    <constraint firstAttribute="width" constant="50" id="x5p-w7-vUu"/>
+                                </constraints>
+                                <connections>
+                                    <action selector="onRoundedButtonPress:" destination="3zh-AU-Enh" eventType="touchUpInside" id="Jfb-Qy-XIB"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="55K-Fk-Zrk">
+                                <rect key="frame" x="120" y="147" width="80" height="30"/>
+                                <color key="backgroundColor" red="0.23529411764705882" green="0.34509803921568627" blue="0.59607843137254901" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="80" id="Xyh-bE-PTx"/>
+                                    <constraint firstAttribute="height" constant="30" id="Z1Z-xS-wWl"/>
+                                </constraints>
+                                <state key="normal" title="Stop">
+                                    <color key="titleColor" red="0.87450980389999999" green="0.89019607840000003" blue="0.93333333330000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="stop:" destination="3zh-AU-Enh" eventType="touchUpInside" id="deQ-FY-myc"/>
+                                </connections>
+                            </button>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.99607843137254903" green="0.99607843137254903" blue="0.99607843137254903" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="nsG-mA-i0Z" firstAttribute="centerY" secondItem="XHE-BS-lPu" secondAttribute="centerY" id="bLL-KB-VLU"/>
-                            <constraint firstItem="nsG-mA-i0Z" firstAttribute="centerX" secondItem="XHE-BS-lPu" secondAttribute="centerX" id="vjI-58-tDO"/>
+                            <constraint firstItem="q4g-qj-GAg" firstAttribute="top" secondItem="SB1-yr-2hW" secondAttribute="bottom" constant="87" id="011-oU-vXf"/>
+                            <constraint firstItem="q4g-qj-GAg" firstAttribute="centerX" secondItem="XHE-BS-lPu" secondAttribute="centerX" id="4xf-z1-KUw"/>
+                            <constraint firstItem="55K-Fk-Zrk" firstAttribute="top" secondItem="q4g-qj-GAg" secondAttribute="bottom" constant="10" id="AJi-zb-hCi"/>
+                            <constraint firstItem="55K-Fk-Zrk" firstAttribute="centerX" secondItem="XHE-BS-lPu" secondAttribute="centerX" id="BoR-iT-tM7"/>
+                            <constraint firstItem="Qq7-Ye-2Ob" firstAttribute="top" secondItem="55K-Fk-Zrk" secondAttribute="bottom" constant="41" id="bIb-GP-VcS"/>
+                            <constraint firstItem="Qq7-Ye-2Ob" firstAttribute="centerX" secondItem="XHE-BS-lPu" secondAttribute="centerX" id="zn3-7y-Ns8"/>
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="button" destination="Qq7-Ye-2Ob" id="N63-hP-MY2"/>
+                        <outlet property="roundedButton" destination="Qq7-Ye-2Ob" id="N63-hP-MY2"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x9w-Kq-eWO" sceneMemberID="firstResponder"/>
