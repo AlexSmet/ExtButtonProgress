@@ -26,7 +26,7 @@
                                 <color key="backgroundColor" red="0.23529411764705882" green="0.34509803921568627" blue="0.59607843137254901" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="LHp-GK-gVs"/>
-                                    <constraint firstAttribute="width" constant="80" id="fAY-xX-EVH"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="80" id="fAY-xX-EVH"/>
                                 </constraints>
                                 <state key="normal" title="Start">
                                     <color key="titleColor" red="0.87450980389999999" green="0.89019607840000003" blue="0.93333333330000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -50,7 +50,7 @@
                                 <rect key="frame" x="120" y="147" width="80" height="30"/>
                                 <color key="backgroundColor" red="0.23529411764705882" green="0.34509803921568627" blue="0.59607843137254901" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="80" id="Xyh-bE-PTx"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="80" id="Xyh-bE-PTx"/>
                                     <constraint firstAttribute="height" constant="30" id="Z1Z-xS-wWl"/>
                                 </constraints>
                                 <state key="normal" title="Stop">
