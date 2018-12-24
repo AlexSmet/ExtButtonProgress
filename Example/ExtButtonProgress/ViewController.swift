@@ -10,19 +10,38 @@ import UIKit
 import ExtButtonProgress
 
 class ViewController: UIViewController {
-    @IBOutlet var button: UIButton!
+    @IBOutlet var roundedButton: UIButton!
+    
+    let indicatorColor = UIColor.white
+    let indicatorBackgroundColor = UIColor(red: 156/255, green: 178/255, blue: 206/255, alpha: 1)
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        button.layer.cornerRadius = 25
-        button.clipsToBounds = true
+        roundedButton.layer.cornerRadius = 25
+        roundedButton.clipsToBounds = true
+    }
+    
+    func showProgressIndicator() {
+        roundedButton.showProgressIndicator(width: 10, color: indicatorColor, backgroundColor: indicatorBackgroundColor, cycleDuration: 7.0)
+    }
+    
+    func hideProgressIndicator() {
+        roundedButton.hideProgressIndicator()
     }
     
     @IBAction func start(_ sender: Any) {
-        button.showProgressIndicator(width: 5, color: UIColor.red, backgroundColor: UIColor.blue)
+        showProgressIndicator()
     }
     
     @IBAction func stop(_ sender: Any) {
-        button.hideProgressIndicator()
-    } 
+        hideProgressIndicator()
+    }
+    
+    @IBAction func onRoundedButtonPress(_ sender: Any) {
+        if roundedButton.isProgressIndicatorVisible {
+            hideProgressIndicator()
+        } else {
+            showProgressIndicator()
+        }
+    }
 }

@@ -2,7 +2,7 @@
 //  ExtButtonProgress.swift
 //
 //
-//  This simple extension adds progress indicator to UIButton
+//  This simple extension adds a progress indicator to circular UIButton
 //
 //  Use method showProgressIndicator( width:color:backgroundColor:) to begin show progress indicator
 //  and method hideProgressIndicator() to hide indicator
@@ -19,12 +19,13 @@ public extension UIButton {
     
     class SHProgressIndicator: UIView {
         
-        public var width: CGFloat = 5.0
-        public var color: UIColor = UIColor.darkGray
-        public var shadowColor: UIColor = UIColor.lightGray
+        var width: CGFloat = 5.0
+        var color: UIColor = UIColor.darkGray
+        var shadowColor: UIColor = UIColor.lightGray
+        var animationDuration: CFTimeInterval = 3.0
         
         private let indicatorLayer = CAShapeLayer()
-        private let animationCycleDuration: CFTimeInterval = 3.0
+    
         
         override init(frame: CGRect) {
             super.init(frame: frame)
@@ -57,18 +58,18 @@ public extension UIButton {
             let strokeEndAnimation = CABasicAnimation(keyPath: "strokeEnd")
             strokeEndAnimation.fromValue = 0
             strokeEndAnimation.toValue = 1
-            strokeEndAnimation.duration = animationCycleDuration / 2
+            strokeEndAnimation.duration = animationDuration / 2
             indicatorLayer.strokeEnd = 1
             
             let strokeStartAnimation = CABasicAnimation(keyPath: "strokeStart")
             strokeStartAnimation.beginTime = strokeEndAnimation.duration
             strokeStartAnimation.fromValue = 0
             strokeStartAnimation.toValue = 1
-            strokeStartAnimation.duration = animationCycleDuration / 2
+            strokeStartAnimation.duration = animationDuration / 2
             
             let group = CAAnimationGroup()
             group.animations = [strokeEndAnimation, strokeStartAnimation]
-            group.duration = animationCycleDuration
+            group.duration = animationDuration
             group.autoreverses = false
             group.repeatCount = HUGE
             
@@ -82,9 +83,8 @@ public extension UIButton {
     }
     
     
-    // Show progress indicator. Just set width, indicator and background colors
-    public func showProgressIndicator( width: CGFloat, color: UIColor, backgroundColor: UIColor){
-        
+    // Show progress indicator. Just set width, foreground and background colors for progress indicator, and animation duration
+    public func showProgressIndicator( width: CGFloat, color: UIColor, backgroundColor: UIColor, cycleDuration: CFTimeInterval = 3.0){
         guard let superview = superview else {
             print("First of all add a button")
             return
@@ -105,7 +105,7 @@ public extension UIButton {
         indicator.width = width
         indicator.color = color
         indicator.shadowColor = backgroundColor
-        
+        indicator.animationDuration = cycleDuration
         
         superview.addSubview(indicator)
         
@@ -122,5 +122,9 @@ public extension UIButton {
         if let indicator = superview?.subviews.first(where: {$0 is SHProgressIndicator}) {
             indicator.removeFromSuperview()
         }
+    }
+    
+    public var isProgressIndicatorVisible: Bool {
+        return superview?.subviews.first(where: {$0 is SHProgressIndicator}) != nil
     }
 }
