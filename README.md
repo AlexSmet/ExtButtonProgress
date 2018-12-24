@@ -1,6 +1,6 @@
 # ExtButtonProgress
 [![Version](https://img.shields.io/badge/version-0.1.1-orange.svg?style=flat)](https://img.shields.io/badge/version-0.1.1-orange.svg)
-[![Platform](https://img.shields.io/badge/ExtButtonProgress.svg?style=flat)](https://img.shields.io/badge/platform-ios-lightgrey.svg?style=flat)
+[![Platform](https://img.shields.io/badge/platform-ios-lightgrey.svg?style=flat)](https://img.shields.io/badge/platform-ios-lightgrey.svg?style=flat)
 [![Language](https://img.shields.io/badge/language-swift-orange.svg?style=flat-square)](https://swift.org/about/)
 [![License](https://img.shields.io/bower/l/ExtButtonProgress.svg?style=flat)](http://opensource.org/licenses/MIT)
 
