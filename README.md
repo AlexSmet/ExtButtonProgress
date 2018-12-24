@@ -4,7 +4,7 @@
 [![Language](https://img.shields.io/badge/language-swift-orange.svg?style=flat-square)](https://swift.org/about/)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat)](http://opensource.org/licenses/MIT)
 
-This simple extension adds progress indicator to UIButton. 
+This simple extension adds progress indicator to rounded UIButton. 
 
 <img src="https://user-images.githubusercontent.com/25868364/50404135-78487400-07b5-11e9-9831-31ed74f1ef9b.gif" />
 
