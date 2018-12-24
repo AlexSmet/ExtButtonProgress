@@ -6,7 +6,7 @@
 
 This simple extension adds progress indicator to UIButton. 
 
-<img src="https://user-images.githubusercontent.com/25868364/50403771-9660a500-07b2-11e9-8039-897a447a0abb.gif" />
+<img src="https://user-images.githubusercontent.com/25868364/50404135-78487400-07b5-11e9-9831-31ed74f1ef9b.gif" />
 
 
 ## Usage
