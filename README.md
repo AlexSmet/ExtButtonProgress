@@ -1,8 +1,8 @@
 # ExtButtonProgress
-[![CI Status](http://img.shields.io/travis/npu3pak/ExtButtonProgress.svg?style=flat)](https://travis-ci.org/npu3pak/ExtButtonProgress)
-[![Version](https://img.shields.io/cocoapods/v/ExtButtonProgress.svg?style=flat)](http://cocoapods.org/pods/ExtButtonProgress)
-[![License](https://img.shields.io/cocoapods/l/ExtButtonProgress.svg?style=flat)](http://cocoapods.org/pods/ExtButtonProgress)
-[![Platform](https://img.shields.io/cocoapods/p/ExtButtonProgress.svg?style=flat)](http://cocoapods.org/pods/ExtButtonProgress)
+[![Version](https://img.shields.io/badge/version-0.1.1-orange.svg?style=flat)](https://img.shields.io/badge/version-0.1.1-orange.svg)
+[![Platform](https://img.shields.io/badge/ExtButtonProgress.svg?style=flat)](https://img.shields.io/badge/platform-ios-lightgrey.svg?style=flat)
+[![Language](https://img.shields.io/badge/language-swift-orange.svg?style=flat-square)](https://swift.org/about/)
+[![License](https://img.shields.io/bower/l/ExtButtonProgress.svg?style=flat)](http://opensource.org/licenses/MIT)
 
 This simple extension adds progress indicator to UIButton. 
 
@@ -17,7 +17,7 @@ and method *hideProgressIndicator()* to hide indicator.
 Important! Button must be circular for using this extension.
 
 Code example
-```
+```swift
 class ViewController: UIViewController {
     
     // Our rounded button
@@ -26,7 +26,7 @@ class ViewController: UIViewController {
     // Push 'Start' button
     @IBAction func pushStart(_ sender: UIButton) {
         // Show progress indicator for our buttnon 
-        roundedButton.showProgressIndicator(width: 5, color: UIColor.purple, backgroundColor: UIColor.lightGray)
+        roundedButton.showProgressIndicator(width: 5, color: UIColor.purple, backgroundColor: UIColor.lightGray, cycleDuration: 7.0)
     }
     
     // Push 'Stop' button
