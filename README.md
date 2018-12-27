@@ -11,10 +11,10 @@ This simple extension adds progress indicator to rounded UIButton.
 
 ## Usage
 Just add file ExtButtonProgress.swift in your project.
-Use method *showProgressIndicator( width:color:backgroundColor:)* to begin show progress indicator
+Use method *showProgressIndicator( width:color:backgroundColor:cycleDuration:)* to begin show progress indicator
 and method *hideProgressIndicator()* to hide indicator.
  
-Important! Button must be circular for using this extension.
+Important! Button must be rounded for using this extension.
 
 Code example
 ```swift
